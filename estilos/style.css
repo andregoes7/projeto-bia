@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    background-color: #A359A0;
+    height: 25px;
+    background-image: linear-gradient( 45% to left, #351634, #6e4b6c);
+    padding: 20px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.623);
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    border-radius: 5px;
+    animation-duration: 0.5s;
+    padding: 1px;
+    
+}
+
+nav > a:hover {
+    background-color: #F5E3A3;
+    color: #A359A0;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding-top: 0px;
+    min-width: 280px;
+    max-width: 1280px;
+            
+    
+    
+    
+    
+}
+
+main h1 {
+    font-family: 'Poppins';
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-bottom: 18px;
+    padding-top: 2px;
+    
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-top: black;
+    padding-top: 1;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.363);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+main p {
+    font-family: 'Poppins';
+    padding-top: 10px;
+    margin-left: 10px;
+    columns: 1;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+    text-indent: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  
+}
+
+strong {
+    color: #A359A0
+}
+
+strong a {
+    text-decoration: none;
+}
+
+strong:hover {
+    background-color: #ff00aa91;
+    padding: 3px;
+    color: white;
+    border-radius: 10px;
+}
+
+main > article p{
+    background-color: #F5E3A3;
+    border-radius: 10px;
+}
+main > article {
+    width: 100%;
+    padding: 14px;
+    background-color: #52c3d1;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    
+}
+
+main > article h1 {
+    color: white;
+}
+
+div.video {
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+body {
+    background-color: white;
+}
+
+footer {
+    background-color: #A359A0;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+}
