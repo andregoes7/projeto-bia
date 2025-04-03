@@ -75,6 +75,7 @@ main p {
     font-family: 'Poppins';
     padding-top: 10px;
     margin-left: 10px;
+    margin-right: 25px;
     columns: 1;
     padding-bottom: 20px;
     font-size: 0.9em;
